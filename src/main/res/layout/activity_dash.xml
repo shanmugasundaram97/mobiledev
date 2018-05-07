@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.quizz.dash"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="36dp"
+        android:background="@drawable/o">
+
+        <Button
+            android:id="@+id/d_signup"
+            android:layout_width="162dp"
+            android:layout_height="wrap_content"
+
+            android:layout_alignBottom="@+id/d_login"
+            android:layout_alignLeft="@+id/d_login"
+            android:layout_alignStart="@+id/d_login"
+            android:layout_marginBottom="69dp"
+            android:alpha="0.75"
+            android:background="	#E6E6FA"
+            android:text="SIGN UP"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:visibility="visible"
+            tools:layout_editor_absoluteX="112dp"
+            tools:layout_editor_absoluteY="187dp" />
+
+        <Button
+            android:id="@+id/d_login"
+            android:layout_width="162dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="26dp"
+            android:alpha="0.75"
+            android:background="	#E6E6FA"
+            android:text="LOGIN"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="111dp"
+            tools:layout_editor_absoluteY="45dp" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

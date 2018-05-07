@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.quizz.java">
+
+    <RelativeLayout
+        android:id="@+id/c"
+        android:layout_width="368dp"
+        android:layout_height="550dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="3dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.396"
+        android:background="@drawable/blue">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            android:id="@+id/scroll1"
+
+            <RelativeLayout
+                android:id="@+id/relative"
+                android:layout_width="368dp"
+                android:layout_height="550dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="3dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.396">
+
+                <TextView
+                    android:id="@+id/c1"
+                    android:layout_width="300dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="26dp"
+                    android:text="1.What of the following is the default value of an instance variable?"
+                    android:textAlignment="textStart"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+                <RadioGroup
+
+
+                    android:id="@+id/r1"
+
+                    android:layout_width="200dp"
+                    android:layout_height="300dp"
+                    android:layout_alignLeft="@+id/c1"
+                    android:layout_alignStart="@+id/c1"
+                    android:layout_below="@+id/c1"
+                    >
+                    <RadioButton
+                        android:id="@+id/c11"
+                        android:layout_width="200dp"
+                        android:layout_height="75dp"
+
+                        android:text="A.null"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+                    <RadioButton
+                        android:id="@+id/c12"
+                        android:layout_width="200dp"
+                        android:layout_height="75dp"
+
+                        android:text="B.0"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+                    <RadioButton
+                        android:id="@+id/c13"
+                        android:layout_width="200dp"
+                        android:layout_height="79dp"
+
+                        android:text="C.Depends upon the type of variable"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                        android:textSize="22sp" />
+
+                    <RadioButton
+                        android:id="@+id/c14"
+                        android:layout_width="200dp"
+                        android:layout_height="75dp"
+
+                        android:text="D.Not assigned
+
+"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/c2"
+                    android:layout_width="300dp"
+                    android:layout_height="100dp"
+                    android:layout_alignLeft="@+id/r1"
+                    android:layout_alignStart="@+id/r1"
+                    android:layout_below="@+id/r1"
+
+                    android:layout_marginTop="26dp"
+                    android:text="2.What is the default value of long variable?"
+                    android:textAlignment="textStart"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+                <RadioGroup
+
+
+                    android:id="@+id/r2"
+
+                    android:layout_width="200dp"
+                    android:layout_height="300dp"
+                    android:layout_alignLeft="@+id/c2"
+                    android:layout_alignStart="@+id/c2"
+                    android:layout_below="@+id/c2"
+                    >
+                    <RadioButton
+                        android:id="@+id/c21"
+                        android:layout_width="200dp"
+                        android:layout_height="75dp"
+
+                        android:text="A.0"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+                    <RadioButton
+                        android:id="@+id/c22"
+                        android:layout_width="200dp"
+                        android:layout_height="75dp"
+
+                        android:text="B. 0.0"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+                    <RadioButton
+                        android:id="@+id/c23"
+                        android:layout_width="200dp"
+                        android:layout_height="75dp"
+
+                        android:text="C. 0L"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+                    <RadioButton
+                        android:id="@+id/c24"
+                        android:layout_width="200dp"
+                        android:layout_height="75dp"
+
+                        android:text="D.Not defined"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/c3"
+                    android:layout_width="300dp"
+                    android:layout_height="100dp"
+                    android:layout_alignLeft="@+id/r2"
+                    android:layout_alignStart="@+id/r2"
+                    android:layout_below="@+id/r2"
+
+                    android:layout_marginTop="26dp"
+                    android:text="3.Which of the following is false about String?"
+                    android:textAlignment="textStart"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+                <RadioGroup
+
+
+                    android:id="@+id/r3"
+
+                    android:layout_width="200dp"
+                    android:layout_height="300dp"
+                    android:layout_alignLeft="@+id/c3"
+                    android:layout_alignStart="@+id/c3"
+                    android:layout_below="@+id/c3"
+                    >
+
+                    <RadioButton
+                        android:id="@+id/c31"
+                        android:layout_width="200dp"
+                        android:layout_height="75dp"
+
+                        android:text="A.String is immutable."
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+                    <RadioButton
+                        android:id="@+id/c32"
+                        android:layout_width="200dp"
+                        android:layout_height="75dp"
+
+                        android:text="B.String can be created using new operator."
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+                    <RadioButton
+                        android:id="@+id/c33"
+                        android:layout_width="200dp"
+                        android:layout_height="75dp"
+
+                        android:text="C.String is a primary data type."
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+                    <RadioButton
+                        android:id="@+id/c34"
+                        android:layout_width="200dp"
+                        android:layout_height="75dp"
+
+                        android:text="D.None of the above."
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/c4"
+                    android:layout_width="300dp"
+                    android:layout_height="100dp"
+                    android:layout_alignLeft="@+id/r3"
+                    android:layout_alignStart="@+id/r3"
+                    android:layout_below="@+id/r3"
+
+                    android:layout_marginTop="26dp"
+                    android:text="4.Can we have two public classes in one java file?"
+                    android:textAlignment="textStart"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+                <RadioGroup
+
+
+                    android:id="@+id/r4"
+
+                    android:layout_width="200dp"
+                    android:layout_height="300dp"
+                    android:layout_alignLeft="@+id/c4"
+                    android:layout_alignStart="@+id/c4"
+                    android:layout_below="@+id/c4"
+                    >
+                    <RadioButton
+                        android:id="@+id/c41"
+                        android:layout_width="200dp"
+                        android:layout_height="75dp"
+
+                        android:text="A.True"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+                    <RadioButton
+                        android:id="@+id/c42"
+                        android:layout_width="200dp"
+                        android:layout_height="75dp"
+
+                        android:text="B.False"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/c5"
+                    android:layout_width="300dp"
+                    android:layout_height="100dp"
+                    android:layout_alignLeft="@+id/r4"
+                    android:layout_alignStart="@+id/r4"
+                    android:layout_below="@+id/r4"
+
+                    android:layout_marginTop="26dp"
+                    android:text="5.Is it necessary that each try block must be followed by a finally block?"
+                    android:textAlignment="textStart"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+                <RadioGroup
+
+
+                    android:id="@+id/r5"
+
+                    android:layout_width="200dp"
+                    android:layout_height="300dp"
+                    android:layout_alignLeft="@+id/c5"
+                    android:layout_alignStart="@+id/c5"
+                    android:layout_below="@+id/c5"
+                    >
+                    <RadioButton
+                        android:id="@+id/c51"
+                        android:layout_width="200dp"
+                        android:layout_height="75dp"
+
+                        android:text="A.True"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+                    <RadioButton
+                        android:id="@+id/c52"
+                        android:layout_width="200dp"
+                        android:layout_height="75dp"
+
+                        android:text="B.False"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+                </RadioGroup>
+
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="150dp"
+                    android:layout_below="@+id/r5"
+                    tools:layout_editor_absoluteX="132dp"
+                    tools:layout_editor_absoluteY="150dp"
+                    android:text="submit"
+                    android:background="	#E6E6FA"
+                    android:textStyle="bold"
+                    android:textColor="#000000"/>
+
+
+            </RelativeLayout>
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

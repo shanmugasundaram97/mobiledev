@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.quizz.ds">
+
+
+                        <RelativeLayout
+                            android:id="@+id/c"
+                            android:layout_width="368dp"
+                            android:layout_height="550dp"
+                            android:layout_marginBottom="16dp"
+                            android:layout_marginEnd="24dp"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginTop="3dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="1.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.396"
+                            android:background="@drawable/blue">
+
+                            <ScrollView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+                                android:id="@+id/scroll1"
+
+                                <RelativeLayout
+                                    android:id="@+id/relative"
+                                    android:layout_width="368dp"
+                                    android:layout_height="550dp"
+                                    android:layout_marginBottom="16dp"
+                                    android:layout_marginEnd="24dp"
+                                    android:layout_marginStart="16dp"
+                                    android:layout_marginTop="3dp"
+                                    app:layout_constraintBottom_toBottomOf="parent"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintHorizontal_bias="1.0"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent"
+                                    app:layout_constraintVertical_bias="0.396">
+
+                                    <TextView
+                                        android:id="@+id/c1"
+                                        android:layout_width="300dp"
+                                        android:layout_height="100dp"
+                                        android:layout_alignParentTop="true"
+                                        android:layout_centerHorizontal="true"
+                                        android:layout_marginTop="26dp"
+                                        android:text="1.The average search time of hashing with linear probing will be less if the load factor  ?"
+                                        android:textAlignment="textStart"
+                                        android:textColor="@android:color/background_dark"
+                                        android:textSize="18sp"
+                                        android:textStyle="bold"
+                                        android:visibility="visible" />
+                                    <RadioGroup
+
+
+                                        android:id="@+id/r1"
+
+                                        android:layout_width="200dp"
+                                        android:layout_height="300dp"
+                                        android:layout_alignLeft="@+id/c1"
+                                        android:layout_alignStart="@+id/c1"
+                                        android:layout_below="@+id/c1"
+                                        >
+                                        <RadioButton
+                                            android:id="@+id/c11"
+                                            android:layout_width="200dp"
+                                            android:layout_height="75dp"
+
+                                            android:text="A.is far less than one"
+                                            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+                                        <RadioButton
+                                            android:id="@+id/c12"
+                                            android:layout_width="200dp"
+                                            android:layout_height="75dp"
+
+                                            android:text="B.equals one"
+                                            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+                                        <RadioButton
+                                            android:id="@+id/c13"
+                                            android:layout_width="200dp"
+                                            android:layout_height="75dp"
+
+                                            android:text="C.is far greater than one"
+                                            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+                                        <RadioButton
+                                            android:id="@+id/c14"
+                                            android:layout_width="200dp"
+                                            android:layout_height="75dp"
+
+                                            android:text="D.None of above"
+                                            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+                                    </RadioGroup>
+
+                                    <TextView
+                                        android:id="@+id/c2"
+                                        android:layout_width="300dp"
+                                        android:layout_height="100dp"
+                                        android:layout_alignLeft="@+id/r1"
+                                        android:layout_alignStart="@+id/r1"
+                                        android:layout_below="@+id/r1"
+
+                                        android:layout_marginTop="26dp"
+                                        android:text="2.The complexity of binary search algorithm is ?"
+                                        android:textAlignment="textStart"
+                                        android:textColor="@android:color/background_dark"
+                                        android:textSize="18sp"
+                                        android:textStyle="bold"
+                                        android:visibility="visible" />
+                                    <RadioGroup
+
+
+                                        android:id="@+id/r2"
+
+                                        android:layout_width="200dp"
+                                        android:layout_height="300dp"
+                                        android:layout_alignLeft="@+id/c2"
+                                        android:layout_alignStart="@+id/c2"
+                                        android:layout_below="@+id/c2"
+                                        >
+                                        <RadioButton
+                                            android:id="@+id/c21"
+                                            android:layout_width="200dp"
+                                            android:layout_height="75dp"
+
+                                            android:text="A.n"
+                                            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+                                        <RadioButton
+                                            android:id="@+id/c22"
+                                            android:layout_width="200dp"
+                                            android:layout_height="75dp"
+
+                                            android:text="B.nlogn"
+                                            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+                                        <RadioButton
+                                            android:id="@+id/c23"
+                                            android:layout_width="200dp"
+                                            android:layout_height="75dp"
+
+                                            android:text="C.log n"
+                                            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+                                        <RadioButton
+                                            android:id="@+id/c24"
+                                            android:layout_width="200dp"
+                                            android:layout_height="75dp"
+
+                                            android:text="4.Power of n"
+                                            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+                                    </RadioGroup>
+
+                                    <TextView
+                                        android:id="@+id/c3"
+                                        android:layout_width="300dp"
+                                        android:layout_height="100dp"
+                                        android:layout_alignLeft="@+id/r2"
+                                        android:layout_alignStart="@+id/r2"
+                                        android:layout_below="@+id/r2"
+
+                                        android:layout_marginTop="26dp"
+                                        android:text="3.The postfix equivalent of the prefix * + ab - cd is ?  "
+                                        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                                        android:textColor="@android:color/background_dark"
+                                        android:textStyle="bold"
+                                        android:visibility="visible" />
+                                    <RadioGroup
+
+
+                                        android:id="@+id/r3"
+
+                                        android:layout_width="200dp"
+                                        android:layout_height="300dp"
+                                        android:layout_alignLeft="@+id/c3"
+                                        android:layout_alignStart="@+id/c3"
+                                        android:layout_below="@+id/c3"
+                                        >
+                                        <RadioButton
+                                            android:id="@+id/c31"
+                                            android:layout_width="200dp"
+                                            android:layout_height="75dp"
+
+                                            android:text="A.ab + cd - *"
+                                            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+                                        <RadioButton
+                                            android:id="@+id/c32"
+                                            android:layout_width="200dp"
+                                            android:layout_height="75dp"
+
+                                            android:text="B.ab + cd - *"
+                                            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+                                        <RadioButton
+                                            android:id="@+id/c33"
+                                            android:layout_width="200dp"
+                                            android:layout_height="75dp"
+
+                                            android:text="C.ab + cd * -"
+                                            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+                                        <RadioButton
+                                            android:id="@+id/c34"
+                                            android:layout_width="200dp"
+                                            android:layout_height="75dp"
+
+                                            android:text="D.ab + - cd *"
+                                            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+                                    </RadioGroup>
+
+                                    <TextView
+                                        android:id="@+id/c4"
+                                        android:layout_width="300dp"
+                                        android:layout_height="100dp"
+                                        android:layout_alignLeft="@+id/r3"
+                                        android:layout_alignStart="@+id/r3"
+                                        android:layout_below="@+id/r3"
+
+                                        android:layout_marginTop="26dp"
+                                        android:text="4.The linked list implementation of sparse matrices is superior to the generalized dope vector method because it is?
+"
+                                        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                                        android:textColor="@android:color/background_dark"
+                                        android:textSize="18sp"
+                                        android:textStyle="bold"
+                                        android:visibility="visible" />
+                                    <RadioGroup
+
+
+                                        android:id="@+id/r4"
+
+                                        android:layout_width="200dp"
+                                        android:layout_height="300dp"
+                                        android:layout_alignLeft="@+id/c4"
+                                        android:layout_alignStart="@+id/c4"
+                                        android:layout_below="@+id/c4"
+                                        >
+                                        <RadioButton
+                                            android:id="@+id/c41"
+                                            android:layout_width="200dp"
+                                            android:layout_height="75dp"
+
+                                            android:text="A.Conceptually easier"
+                                            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+                                        <RadioButton
+                                            android:id="@+id/c42"
+                                            android:layout_width="200dp"
+                                            android:layout_height="75dp"
+
+                                            android:text="B.Completely dynamic "
+                                            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+                                    </RadioGroup>
+
+                                    <TextView
+                                        android:id="@+id/c5"
+                                        android:layout_width="300dp"
+                                        android:layout_height="100dp"
+                                        android:layout_alignLeft="@+id/r4"
+                                        android:layout_alignStart="@+id/r4"
+                                        android:layout_below="@+id/r4"
+
+                                        android:layout_marginTop="26dp"
+                                        android:text="5. Sparse matrix have ?"
+                                        android:textAlignment="textStart"
+                                        android:textColor="@android:color/background_dark"
+                                        android:textSize="18sp"
+                                        android:textStyle="bold"
+                                        android:visibility="visible" />
+                                    <RadioGroup
+
+
+                                        android:id="@+id/r5"
+
+                                        android:layout_width="200dp"
+                                        android:layout_height="300dp"
+                                        android:layout_alignLeft="@+id/c5"
+                                        android:layout_alignStart="@+id/c5"
+                                        android:layout_below="@+id/c5"
+                                        >
+                                        <RadioButton
+                                            android:id="@+id/c51"
+                                            android:layout_width="200dp"
+                                            android:layout_height="75dp"
+
+                                            android:text="A.many zero entries"
+                                            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+                                        <RadioButton
+                                            android:id="@+id/c52"
+                                            android:layout_width="200dp"
+                                            android:layout_height="75dp"
+
+                                            android:text="B.many non-zero entries"
+                                            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+                                        <RadioButton
+                                            android:id="@+id/c53"
+                                            android:layout_width="200dp"
+                                            android:layout_height="75dp"
+
+                                            android:text="C.higher dimension"
+                                            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+                                        <RadioButton
+                                            android:id="@+id/c54"
+                                            android:layout_width="200dp"
+                                            android:layout_height="75dp"
+
+                                            android:text="D.none of above"
+                                            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+                                    </RadioGroup>
+
+
+
+                                    <Button
+                                        android:id="@+id/button"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentBottom="true"
+                                        android:layout_centerHorizontal="true"
+                                        android:layout_marginBottom="150dp"
+                                        android:layout_below="@+id/r5"
+                                        tools:layout_editor_absoluteX="132dp"
+                                        tools:layout_editor_absoluteY="150dp"
+                                        android:text="submit"
+                                        android:background="	#E6E6FA"
+                                        android:textStyle="bold"
+                                        android:textColor="#000000"/>
+
+                                </RelativeLayout>
+                            </ScrollView>
+
+
+                        </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

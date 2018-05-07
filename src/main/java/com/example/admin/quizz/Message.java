@@ -1,0 +1,15 @@
+package com.example.admin.quizz;
+
+/**
+ * Created by admin on 02-05-2018.
+ */
+
+
+          import android.content.Context;
+          import android.widget.Toast;
+
+public class Message {
+    public static void message(Context context, String message) {
+        Toast.makeText(context, message, Toast.LENGTH_LONG).show();
+    }
+}
